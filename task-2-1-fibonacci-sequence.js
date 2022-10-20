@@ -1,3 +1,5 @@
+//Create a function that writes out (console.log) N numbers of the fibonacci sequence. The next number in the fibonacci sequence is the sum of the two numbers prior.
+
 function fibonacciSequence(limit) {
   let firstSeed = 0;
   let secondSeed = 1;
@@ -18,4 +20,4 @@ function fibonacciSequence(limit) {
   else console.log(sequence);
 }
 
-fibonacciSequence(3);
+fibonacciSequence(15);
