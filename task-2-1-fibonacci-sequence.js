@@ -20,4 +20,4 @@ function fibonacciSequence(limit) {
   else console.log(sequence);
 }
 
-fibonacciSequence(15);
+fibonacciSequence(4);
