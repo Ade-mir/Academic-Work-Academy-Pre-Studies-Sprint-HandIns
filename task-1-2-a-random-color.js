@@ -1,20 +1,20 @@
 // Exercise A
 
-//The following javascript will give you a random number between 0 and 3.
+// The following javascript will give you a random number between 0 and 3.
 
-// let random = Math.floor(Math.random() * 4);
+let random = Math.floor(Math.random() * 4);
 
 // Use this code inside a function that returns a random color. If “random” is 0, return “green”. If it is 1 return “yellow”. If 2, return “red” and if 3 retur “blue”.
 
-// console.log(randomColor());
+console.log(randomColor());
 
-// function randomColor() {
-//   let random = Math.floor(Math.random() * 4);
-//   if (random === 0) return 'green';
-//   else if (random === 1) return 'yellow';
-//   else if (random === 2) return 'red';
-//   return 'blue';
-// }
+function randomColor() {
+  let random = Math.floor(Math.random() * 4);
+  if (random === 0) return 'green';
+  else if (random === 1) return 'yellow';
+  else if (random === 2) return 'red';
+  return 'blue';
+}
 
 // Exercise B
 
